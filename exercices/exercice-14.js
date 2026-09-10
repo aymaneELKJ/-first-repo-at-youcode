@@ -10,8 +10,20 @@
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-14
  * ▶️ Commande : node day02/exercices/exercice-14.js
  */
-'use strict';
+
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+let nombre = 1000
+let cote = 1
+
+while (cote * cote <= nombre) {
+    cote++;
+}
+
+console.log(cote * cote)
+
+

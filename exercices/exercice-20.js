@@ -15,3 +15,17 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+for (let nombre = 100; nombre <= 999; nombre++) {
+    let centaines = Math.floor(nombre / 100);
+    let dizaines = Math.floor((nombre % 100) / 10);
+    let unites = nombre % 10;
+
+    let somme = centaines ** 3 + dizaines ** 3 + unites ** 3;
+
+    if (somme === nombre) {
+        console.log(nombre);
+    }
+}
+
