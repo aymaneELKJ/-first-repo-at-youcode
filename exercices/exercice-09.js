@@ -15,3 +15,13 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+function trouverMax(a, b, c){
+    if( a > b && a > c){
+        console.log(" le plus grand : " + a)
+    }else if( b > a && b > c){
+        console.log("le plus grande :" + b)
+    }else{ 
+        console.log("le plus gande :" + c)
+    }
+}trouverMax(2, 4, 8)

@@ -15,3 +15,27 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+const cache = {};
+
+function longCalcul(nombre) {
+    if (cache[nombre] !== undefined) {
+        console.log("Résultat trouvé dans le cache !");
+        return cache[nombre];
+    }
+
+    console.log("Calcul en cours...");
+
+    let resultat = nombre * nombre * nombre;
+
+    cache[nombre] = resultat;
+
+    return resultat;
+}
+
+console.log(longCalcul(5)); 
+console.log(longCalcul(5)); 
+console.log(longCalcul(3)); 
+console.log(longCalcul(3));
+

@@ -15,3 +15,13 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+function carre(x){
+    return x ** 2 
+}
+function sommeDesCarres(a, b){
+    carre(a)
+    carre(b)
+    return carre(a) + carre(b)
+}
+console.log(sommeDesCarres(2, 4))

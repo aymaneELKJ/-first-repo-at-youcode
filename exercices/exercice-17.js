@@ -15,3 +15,17 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+function extrairePrixEtConvertir(chaineBrute){
+    if(typeof chaineBrute !== "string"){
+        return null
+    }
+    let nettoyer = chaineBrute.trim()
+    let resulte = nettoyer.match()
+    if ( resulte === null){
+        return null
+    }
+    return Number(resulte[0])
+}
+
+console.log("Prix: 15.99 $")

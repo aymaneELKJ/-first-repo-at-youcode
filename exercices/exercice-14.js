@@ -15,3 +15,30 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+function calculatrice(a, b, signe){
+    switch(signe){
+        case "+":
+            return somme (a,b)
+        case "-":
+            return mois(a,b)
+        case "*":
+            return multipli(a,b)
+        case "/":
+            return divition(a,b)
+    }
+
+}
+function somme(a,b){
+    return a + b 
+}
+function mois(a,b){
+    return a - b
+}
+function multipli(a,b){
+    return a * b
+}
+function divition(a,b){
+    return a / b
+}
+console.log(calculatrice(2, 4,"+"))

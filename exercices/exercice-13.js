@@ -15,3 +15,19 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+function genererMotDePasse(longueur) {
+    let motDePasse = "";
+
+    for (let i = 0; i < longueur; i++) {
+        if (Math.random() < 0.5) {
+            motDePasse += "A";
+        } else {
+            motDePasse += Math.floor(Math.random() * 10);
+        }
+    }
+
+    return motDePasse;
+}
+
+console.log(genererMotDePasse(8));
