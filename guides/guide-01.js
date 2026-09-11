@@ -10,3 +10,8 @@
 'use strict';
 
 // TODO: écris ta solution ici.
+
+function saluer(nom){
+    console.log("bonjour" + " " + nom + " " + "!");
+}
+saluer("ayman");

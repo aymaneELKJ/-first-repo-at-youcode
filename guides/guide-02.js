@@ -10,3 +10,12 @@
 'use strict';
 
 // TODO: écris ta solution ici.
+
+function test(){
+    let message = "Bonjour"
+    console.log(message);
+}
+
+test()
+
+console.log(message)

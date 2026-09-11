@@ -25,7 +25,9 @@
 
 > À compléter avec mes propres mots.
 
----
+Un paramètre est une variable utilisée dans la définition d'une fonction pour recevoir une valeur. Un argument est la valeur qu'on donne à ce paramètre quand on appelle la fonction.
+
+Par exemple, dans 'function bonjour(nom)', 'nom' est le paramètre. Dans 'bonjour("Aymane")', "Aymane" est l'argument.
 
 ### Question 02
 
@@ -37,7 +39,9 @@
 
 > À compléter avec mes propres mots.
 
----
+"return" sert à renvoyer une valeur depuis une fonction pour pouvoir la réutiliser. "console.log()" sert seulement à afficher une valeur dans la console.
+
+Par exemple, avec "return", je peux récupérer le résultat d'un calcul dans une variable. Avec `console.log()`, je peux seulement voir le résultat dans la console.
 
 ### Question 03
 
@@ -49,7 +53,7 @@
 
 > À compléter avec mes propres mots.
 
----
+Si j'oublie le mot-clé `return` dans une fonction qui doit renvoyer une valeur, la fonction retourne automatiquement `undefined". Le calcul peut être effectué, mais son résultat n'est pas renvoyé par la fonction.
 
 ### Question 04
 
